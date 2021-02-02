@@ -1,6 +1,6 @@
 while True:
-    print(input.rotation(Rotation.PITCH))
-    if input.rotation(Rotation.PITCH) > 17 or input.rotation(Rotation.PITCH) < -17:
+    print(input.rotation(Rotation.ROLL))
+    if input.rotation(Rotation.ROLL) > 17 or input.rotation(Rotation.ROLL) < -17:
         light.clear()
     else:
         light.show_animation(light.rainbow_animation, 100)
