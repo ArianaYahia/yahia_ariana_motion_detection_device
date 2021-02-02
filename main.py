@@ -1,6 +1,6 @@
 while True:
-    print(input.acceleration(Dimension.X))
-    if input.acceleration(Dimension.X) > 17 or input.acceleration(Dimension.X) < -17:
+    print(input.rotation(Rotation.PITCH))
+    if input.rotation(Rotation.PITCH) > 17 or input.rotation(Rotation.PITCH) < -17:
         light.clear()
     else:
         light.show_animation(light.rainbow_animation, 100)
